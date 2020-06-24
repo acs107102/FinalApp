@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DA5E1CD2498E9F200C20FDD /* SheetDBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1CC2498E9F200C20FDD /* SheetDBViewModel.swift */; };
+		2DA5E1D1249935BB00C20FDD /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1D0249935BB00C20FDD /* ImagePickerController.swift */; };
+		2DA5E1D3249944E300C20FDD /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1D2249944E300C20FDD /* PhotoViewModel.swift */; };
+		2DA5E1D5249F8F1E00C20FDD /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1D4249F8F1E00C20FDD /* CategoryHome.swift */; };
+		2DA5E1DD249F93CA00C20FDD /* TaipeiListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1DC249F93CA00C20FDD /* TaipeiListViewModel.swift */; };
+		2DA5E1DF249F959600C20FDD /* TaipeiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1DE249F959600C20FDD /* TaipeiData.swift */; };
+		2DA5E1E1249F9EB800C20FDD /* TaipeiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1E0249F9EB800C20FDD /* TaipeiList.swift */; };
+		2DA5E1E3249F9FA300C20FDD /* TaipeiRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1E2249F9FA300C20FDD /* TaipeiRow.swift */; };
+		2DA5E1E5249F9FB100C20FDD /* TaipeiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1E4249F9FB100C20FDD /* TaipeiDetail.swift */; };
+		2DA5E1E724A0608B00C20FDD /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1E624A0608B00C20FDD /* PageViewController.swift */; };
+		2DA5E1E924A062F600C20FDD /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1E824A062F600C20FDD /* PageView.swift */; };
+		2DA5E1EB24A0B26700C20FDD /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5E1EA24A0B26600C20FDD /* SafariView.swift */; };
 		2DFA9958248A80DF00CE6F09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9957248A80DF00CE6F09 /* AppDelegate.swift */; };
 		2DFA995A248A80DF00CE6F09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9959248A80DF00CE6F09 /* SceneDelegate.swift */; };
 		2DFA995C248A80DF00CE6F09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA995B248A80DF00CE6F09 /* ContentView.swift */; };
 		2DFA995E248A80E700CE6F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFA995D248A80E700CE6F09 /* Assets.xcassets */; };
 		2DFA9961248A80E700CE6F09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFA9960248A80E700CE6F09 /* Preview Assets.xcassets */; };
 		2DFA9964248A80E700CE6F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFA9962248A80E700CE6F09 /* LaunchScreen.storyboard */; };
+		2DFA996E248B241900CE6F09 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA996D248B241900CE6F09 /* data.swift */; };
+		2DFA9970248B77C900CE6F09 /* TravelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA996F248B77C900CE6F09 /* TravelRow.swift */; };
+		2DFA9972248B786100CE6F09 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9971248B786100CE6F09 /* NetworkImage.swift */; };
+		2DFA9974248B826200CE6F09 /* TravelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9973248B826200CE6F09 /* TravelList.swift */; };
+		2DFA9976248B888D00CE6F09 /* TravelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9975248B888C00CE6F09 /* TravelListViewModel.swift */; };
+		2DFA9978248B88E400CE6F09 /* TravelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9977248B88E400CE6F09 /* TravelDetail.swift */; };
+		2DFA997C248BD27C00CE6F09 /* TravelSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA997B248BD27C00CE6F09 /* TravelSearch.swift */; };
+		2DFA997E2490EFED00CE6F09 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA997D2490EFEC00CE6F09 /* MapView.swift */; };
+		2DFA99822491140B00CE6F09 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA99812491140B00CE6F09 /* Alerts.swift */; };
+		2DFA998424912AA700CE6F09 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA998324912AA700CE6F09 /* FavoriteViewModel.swift */; };
+		2DFA99862491349F00CE6F09 /* FavoriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA99852491349F00CE6F09 /* FavoriteList.swift */; };
+		2DFA99882491356B00CE6F09 /* FavoriteInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA99872491356B00CE6F09 /* FavoriteInsert.swift */; };
+		2DFA998A2491358A00CE6F09 /* FavoriteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA99892491358A00CE6F09 /* FavoriteRow.swift */; };
+		2DFA998C249202C800CE6F09 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA998B249202C800CE6F09 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DA5E1CC2498E9F200C20FDD /* SheetDBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetDBViewModel.swift; sourceTree = "<group>"; };
+		2DA5E1D0249935BB00C20FDD /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		2DA5E1D2249944E300C20FDD /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		2DA5E1D4249F8F1E00C20FDD /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		2DA5E1DC249F93CA00C20FDD /* TaipeiListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaipeiListViewModel.swift; sourceTree = "<group>"; };
+		2DA5E1DE249F959600C20FDD /* TaipeiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaipeiData.swift; sourceTree = "<group>"; };
+		2DA5E1E0249F9EB800C20FDD /* TaipeiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaipeiList.swift; sourceTree = "<group>"; };
+		2DA5E1E2249F9FA300C20FDD /* TaipeiRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaipeiRow.swift; sourceTree = "<group>"; };
+		2DA5E1E4249F9FB100C20FDD /* TaipeiDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaipeiDetail.swift; sourceTree = "<group>"; };
+		2DA5E1E624A0608B00C20FDD /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		2DA5E1E824A062F600C20FDD /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		2DA5E1EA24A0B26600C20FDD /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		2DFA9954248A80DF00CE6F09 /* FinalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFA9957248A80DF00CE6F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DFA9959248A80DF00CE6F09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +62,20 @@
 		2DFA9960248A80E700CE6F09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DFA9963248A80E700CE6F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DFA9965248A80E700CE6F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFA996D248B241900CE6F09 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		2DFA996F248B77C900CE6F09 /* TravelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelRow.swift; sourceTree = "<group>"; };
+		2DFA9971248B786100CE6F09 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		2DFA9973248B826200CE6F09 /* TravelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelList.swift; sourceTree = "<group>"; };
+		2DFA9975248B888C00CE6F09 /* TravelListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelListViewModel.swift; sourceTree = "<group>"; };
+		2DFA9977248B88E400CE6F09 /* TravelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetail.swift; sourceTree = "<group>"; };
+		2DFA997B248BD27C00CE6F09 /* TravelSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelSearch.swift; sourceTree = "<group>"; };
+		2DFA997D2490EFEC00CE6F09 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2DFA99812491140B00CE6F09 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		2DFA998324912AA700CE6F09 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		2DFA99852491349F00CE6F09 /* FavoriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteList.swift; sourceTree = "<group>"; };
+		2DFA99872491356B00CE6F09 /* FavoriteInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteInsert.swift; sourceTree = "<group>"; };
+		2DFA99892491358A00CE6F09 /* FavoriteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRow.swift; sourceTree = "<group>"; };
+		2DFA998B249202C800CE6F09 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +89,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DA5E1D6249F8F3B00C20FDD /* travel */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9977248B88E400CE6F09 /* TravelDetail.swift */,
+				2DFA9973248B826200CE6F09 /* TravelList.swift */,
+				2DFA996F248B77C900CE6F09 /* TravelRow.swift */,
+				2DFA997B248BD27C00CE6F09 /* TravelSearch.swift */,
+				2DA5E1E0249F9EB800C20FDD /* TaipeiList.swift */,
+				2DA5E1E2249F9FA300C20FDD /* TaipeiRow.swift */,
+				2DA5E1E4249F9FB100C20FDD /* TaipeiDetail.swift */,
+			);
+			path = travel;
+			sourceTree = "<group>";
+		};
+		2DA5E1D7249F8F5D00C20FDD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA996D248B241900CE6F09 /* data.swift */,
+				2DA5E1DE249F959600C20FDD /* TaipeiData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2DA5E1D8249F8F8A00C20FDD /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA99852491349F00CE6F09 /* FavoriteList.swift */,
+				2DFA99892491358A00CE6F09 /* FavoriteRow.swift */,
+				2DFA99872491356B00CE6F09 /* FavoriteInsert.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		2DA5E1D9249F8FB900C20FDD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA998324912AA700CE6F09 /* FavoriteViewModel.swift */,
+				2DFA9975248B888C00CE6F09 /* TravelListViewModel.swift */,
+				2DA5E1DC249F93CA00C20FDD /* TaipeiListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DA5E1DA249F8FDE00C20FDD /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9971248B786100CE6F09 /* NetworkImage.swift */,
+				2DA5E1D0249935BB00C20FDD /* ImagePickerController.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		2DA5E1DB249F901100C20FDD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2DA5E1EA24A0B26600C20FDD /* SafariView.swift */,
+				2DFA997D2490EFEC00CE6F09 /* MapView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2DA5E1EC24A381B200C20FDD /* wrong */ = {
+			isa = PBXGroup;
+			children = (
+				2DA5E1D2249944E300C20FDD /* PhotoViewModel.swift */,
+				2DA5E1E624A0608B00C20FDD /* PageViewController.swift */,
+				2DA5E1E824A062F600C20FDD /* PageView.swift */,
+				2DFA998B249202C800CE6F09 /* SearchBar.swift */,
+				2DA5E1CC2498E9F200C20FDD /* SheetDBViewModel.swift */,
+				2DA5E1D4249F8F1E00C20FDD /* CategoryHome.swift */,
+				2DFA99812491140B00CE6F09 /* Alerts.swift */,
+			);
+			path = wrong;
+			sourceTree = "<group>";
+		};
 		2DFA994B248A80DE00CE6F09 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +183,13 @@
 		2DFA9956248A80DF00CE6F09 /* FinalApp */ = {
 			isa = PBXGroup;
 			children = (
+				2DA5E1EC24A381B200C20FDD /* wrong */,
+				2DA5E1D7249F8F5D00C20FDD /* Data */,
+				2DA5E1D6249F8F3B00C20FDD /* travel */,
+				2DA5E1DB249F901100C20FDD /* UI */,
+				2DA5E1D8249F8F8A00C20FDD /* Favorite */,
+				2DA5E1D9249F8FB900C20FDD /* ViewModel */,
+				2DA5E1DA249F8FDE00C20FDD /* Photo */,
 				2DFA9957248A80DF00CE6F09 /* AppDelegate.swift */,
 				2DFA9959248A80DF00CE6F09 /* SceneDelegate.swift */,
 				2DFA995B248A80DF00CE6F09 /* ContentView.swift */,
@@ -146,9 +280,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFA9978248B88E400CE6F09 /* TravelDetail.swift in Sources */,
+				2DA5E1D3249944E300C20FDD /* PhotoViewModel.swift in Sources */,
+				2DFA997E2490EFED00CE6F09 /* MapView.swift in Sources */,
+				2DA5E1E1249F9EB800C20FDD /* TaipeiList.swift in Sources */,
+				2DA5E1E5249F9FB100C20FDD /* TaipeiDetail.swift in Sources */,
+				2DA5E1DF249F959600C20FDD /* TaipeiData.swift in Sources */,
+				2DFA9976248B888D00CE6F09 /* TravelListViewModel.swift in Sources */,
+				2DA5E1E724A0608B00C20FDD /* PageViewController.swift in Sources */,
+				2DFA998424912AA700CE6F09 /* FavoriteViewModel.swift in Sources */,
 				2DFA9958248A80DF00CE6F09 /* AppDelegate.swift in Sources */,
 				2DFA995A248A80DF00CE6F09 /* SceneDelegate.swift in Sources */,
+				2DFA996E248B241900CE6F09 /* data.swift in Sources */,
+				2DFA9970248B77C900CE6F09 /* TravelRow.swift in Sources */,
+				2DA5E1E924A062F600C20FDD /* PageView.swift in Sources */,
+				2DFA998A2491358A00CE6F09 /* FavoriteRow.swift in Sources */,
+				2DA5E1EB24A0B26700C20FDD /* SafariView.swift in Sources */,
+				2DFA99862491349F00CE6F09 /* FavoriteList.swift in Sources */,
+				2DFA997C248BD27C00CE6F09 /* TravelSearch.swift in Sources */,
+				2DFA9974248B826200CE6F09 /* TravelList.swift in Sources */,
+				2DA5E1CD2498E9F200C20FDD /* SheetDBViewModel.swift in Sources */,
 				2DFA995C248A80DF00CE6F09 /* ContentView.swift in Sources */,
+				2DFA99882491356B00CE6F09 /* FavoriteInsert.swift in Sources */,
+				2DFA998C249202C800CE6F09 /* SearchBar.swift in Sources */,
+				2DFA99822491140B00CE6F09 /* Alerts.swift in Sources */,
+				2DA5E1D1249935BB00C20FDD /* ImagePickerController.swift in Sources */,
+				2DA5E1D5249F8F1E00C20FDD /* CategoryHome.swift in Sources */,
+				2DA5E1DD249F93CA00C20FDD /* TaipeiListViewModel.swift in Sources */,
+				2DA5E1E3249F9FA300C20FDD /* TaipeiRow.swift in Sources */,
+				2DFA9972248B786100CE6F09 /* NetworkImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
